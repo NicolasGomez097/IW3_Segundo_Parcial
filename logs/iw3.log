@@ -1,0 +1,75 @@
+29-10-2019 16:17:59.366 [restartedMain] INFO  com.example.demo.DemoApplication.logStarting - Starting DemoApplication on hp with PID 3606 (/home/mariano/borrar/iw3_2019/demo/target/classes started by mariano in /home/mariano/borrar/iw3_2019/demo)
+29-10-2019 16:17:59.372 [restartedMain] INFO  com.example.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+29-10-2019 16:17:59.431 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+29-10-2019 16:17:59.432 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+29-10-2019 16:18:00.196 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+29-10-2019 16:18:00.267 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 63ms. Found 5 repository interfaces.
+29-10-2019 16:18:00.704 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b22a9e2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+29-10-2019 16:18:01.028 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+29-10-2019 16:18:01.051 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+29-10-2019 16:18:01.052 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.22]
+29-10-2019 16:18:01.170 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+29-10-2019 16:18:01.171 [restartedMain] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1735 ms
+29-10-2019 16:18:01.368 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+29-10-2019 16:18:01.816 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+29-10-2019 16:18:01.850 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+29-10-2019 16:18:01.911 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.3.10.Final}
+29-10-2019 16:18:01.912 [restartedMain] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+29-10-2019 16:18:01.992 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+29-10-2019 16:18:02.298 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+29-10-2019 16:18:02.902 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-10-2019 16:18:02.932 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+29-10-2019 16:18:03.184 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+29-10-2019 16:18:03.462 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40b570fe, org.springframework.security.web.context.SecurityContextPersistenceFilter@a2c889a, org.springframework.security.web.header.HeaderWriterFilter@6a213703, org.springframework.web.filter.CorsFilter@1c784d38, org.springframework.security.web.authentication.logout.LogoutFilter@46b51810, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7337beaa, com.example.demo.CustomTokenAuthenticationFilter@e7c647d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@85187e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55f39a39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62f3884a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b869e8f, org.springframework.security.web.session.SessionManagementFilter@5b7ccce1, org.springframework.security.web.access.ExceptionTranslationFilter@3cfbedfe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e7bd137]
+29-10-2019 16:18:03.582 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+29-10-2019 16:18:03.610 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+29-10-2019 16:18:03.642 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+29-10-2019 16:18:03.900 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService 'taskScheduler'
+29-10-2019 16:18:04.113 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+29-10-2019 16:18:04.115 [restartedMain] INFO  com.example.demo.DemoApplication.logStarted - Started DemoApplication in 5.019 seconds (JVM running for 5.541)
+29-10-2019 16:18:05.053 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+29-10-2019 16:18:05.053 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+29-10-2019 16:18:05.062 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 9 ms
+29-10-2019 16:20:08.514 [Thread-6] INFO  o.s.s.c.ThreadPoolTaskScheduler.shutdown - Shutting down ExecutorService 'taskScheduler'
+29-10-2019 16:20:08.515 [Thread-6] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+29-10-2019 16:20:08.518 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-10-2019 16:20:08.521 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+29-10-2019 16:20:08.524 [Thread-6] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+29-10-2019 16:20:08.827 [restartedMain] INFO  com.example.demo.DemoApplication.logStarting - Starting DemoApplication on hp with PID 3606 (/home/mariano/borrar/iw3_2019/demo/target/classes started by mariano in /home/mariano/borrar/iw3_2019/demo)
+29-10-2019 16:20:08.827 [restartedMain] INFO  com.example.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+29-10-2019 16:20:08.967 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data repositories in DEFAULT mode.
+29-10-2019 16:20:08.982 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 15ms. Found 5 repository interfaces.
+29-10-2019 16:20:09.028 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b22a9e2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+29-10-2019 16:20:09.089 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+29-10-2019 16:20:09.090 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+29-10-2019 16:20:09.091 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.22]
+29-10-2019 16:20:09.094 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+29-10-2019 16:20:09.094 [restartedMain] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 265 ms
+29-10-2019 16:20:09.151 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Starting...
+29-10-2019 16:20:09.220 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Start completed.
+29-10-2019 16:20:09.224 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+29-10-2019 16:20:09.322 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+29-10-2019 16:20:09.423 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-10-2019 16:20:09.439 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+29-10-2019 16:20:09.517 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator.initiateService - HHH000397: Using ASTQueryTranslatorFactory
+29-10-2019 16:20:09.691 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bfcfb69, org.springframework.security.web.context.SecurityContextPersistenceFilter@88af51, org.springframework.security.web.header.HeaderWriterFilter@5cbbbb77, org.springframework.web.filter.CorsFilter@2cbd797c, org.springframework.security.web.authentication.logout.LogoutFilter@fb97d1c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@32ddcd35, com.example.demo.CustomTokenAuthenticationFilter@7055bdbb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4a8ea99d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@575c1e0f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56bd7790, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17466b82, org.springframework.security.web.session.SessionManagementFilter@52317d96, org.springframework.security.web.access.ExceptionTranslationFilter@7154caed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70c1547]
+29-10-2019 16:20:09.756 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+29-10-2019 16:20:09.764 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+29-10-2019 16:20:09.780 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping.<init> - Adding welcome page: class path resource [static/index.html]
+29-10-2019 16:20:09.814 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService 'taskScheduler'
+29-10-2019 16:20:10.050 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+29-10-2019 16:20:10.051 [restartedMain] INFO  com.example.demo.DemoApplication.logStarted - Started DemoApplication in 1.249 seconds (JVM running for 131.477)
+29-10-2019 16:20:10.076 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+29-10-2019 16:20:14.861 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+29-10-2019 16:20:14.863 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+29-10-2019 16:20:14.869 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 6 ms
+29-10-2019 17:36:15.561 [RMI TCP Connection(113)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+29-10-2019 17:36:15.593 [RMI TCP Connection(113)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler.shutdown - Shutting down ExecutorService 'taskScheduler'
+29-10-2019 17:36:15.594 [RMI TCP Connection(113)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+29-10-2019 17:36:15.595 [RMI TCP Connection(113)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-10-2019 17:36:15.596 [RMI TCP Connection(113)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+29-10-2019 17:36:15.601 [RMI TCP Connection(113)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown completed.
